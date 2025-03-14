@@ -2,7 +2,7 @@ name: Send Notification
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # हर 5 मिनट में Run होगा
+    - cron: '*/1 * * * *'  # हर 5 मिनट में Run होगा
 
 jobs:
   run_script:
