@@ -17,7 +17,10 @@ jobs:
           python-version: '3.x'
 
       - name: Install Dependencies
-        run: pip install pushbullet.py
+         run: |
+          pip install pushbullet.py
+          pip install requests
+          pip install beautifulsoup4
 
       - name: Run Python Script
         run: python notify.py
